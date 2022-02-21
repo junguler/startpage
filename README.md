@@ -7,3 +7,16 @@ got to the nerd font site and download the font [CaskaydiaCove Nerd Font](https:
 ## how it looks?
 
 https://user-images.githubusercontent.com/59083599/155002545-221b496f-c48d-4efd-b473-aa435981f295.mp4
+
+## customizing for your needs
+adding and removing links is easy, just copy paste an existing line and change it's content or just remove any that you don't like, check the nerd fonts [cheat cheat](https://www.nerdfonts.com/cheat-sheet) for other glyphs and copy the hex value to make a new class in the style section for extra glyphs, here is an example:
+
+```
+.python:before { content: "\e73c"; }
+```
+
+now make a new link for the homepage of the python website
+
+```
+<a href="https://www.python.org/"> <i class="nf python"></i>&nbsp; Python</a>
+```

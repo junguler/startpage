@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> + </title>
+<style>
+
+body {
+background-color: #333;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(4, 220px);
+grid-auto-rows: 36px;
+}
+
+a {
+position: relative;
+text-align: left;
+font-family: "CaskaydiaCove Nerd Font";
+font-size: 20px;
+margin: 0px 12px;
+}
+
+i {
+color: rgba(255, 171, 171, 1) ;
+opacity: 80%;
+}
+
+span {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+background-color: rgb(46, 46, 46);
+}
+
+a:link {
+color: rgb(144, 238, 144);
+border-bottom: rgba(144, 238, 144, 0.5) 1px solid;
+}
+
+a:hover {
+color: rgb(144, 238, 144); 
+filter: hue-rotate(180deg); 
+}
+
+a:active {
+color: rgb(255, 255, 0) ;
+}
+
+.dropbtn {
+border: none;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+z-index: 9;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+min-width: 220px;
+}
+
+.dropdown-content a {
+display: block;
+background-color: black;
+filter: hue-rotate(180deg);
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+*::before { font-style: normal; font-size: 28px; }
+
+.stuff:before { content: ""; }
+.mail:before { content: "\f6ee"; }
+.mail2:before { content: "\f6ed"; }
+.youtube:before { content: "\f167"; }
+.youtube2:before { content: "\f16a"; }
+.play:before { content: "\f144"; }
+.time:before { content: "\fa19"; }
+.web:before { content: "\fa9e"; }
+.game:before { content: "\f11b"; }
+.game2:before { content: "\f7b3"; }
+.tv:before { content: "\f26c"; }
+.dub:before { content: "\f49e"; }
+.reddit:before { content: "\f281"; }
+.twitch:before { content: "\f1e8"; }
+.download:before { content: "\f0ed"; }
+.torrent:before { content: "\f076"; }
+.download2:before { content: "\f661"; }
+.download3:before { content: "\f409"; }
+.money:before { content: "\f19c"; }
+.font:before { content: "\f031"; }
+.package:before { content: "\f8d5"; }
+.play2:before { content: "\f928"; }
+.fruit:before { content: "\e29e"; }
+.t2s:before { content: "\fa09"; }
+.close:before { content: "\f2d4"; }
+.forum:before { content: "\f78b"; }
+.podcast:before { content: "\f001"; }
+.deviant:before { content: "\f1bd"; }
+.flower:before { content: "\f749"; }
+.image:before { content: "\f03e"; }
+.steam:before { content: "\f1b6"; }
+.markdown:before { content: "\f48a"; }
+.emoji:before { content: "\f6f2"; }
+.emoji2:before { content: "\fb9a"; }
+.check:before { content: "\f046"; }
+.archive:before { content: "\f187"; }
+.unlock:before { content: "\f13e"; }
+.table:before { content: "\f0ce"; }
+.docs:before { content: "\f719"; }
+.farms:before { content: "\e232"; }
+.farms2:before { content: "\fcb6"; }
+.key:before { content: "\f084"; }
+.github:before { content: "\f113"; }
+.plus:before { content: "\f067"; }
+.star:before { content: "\f123"; }
+
+</style>
+
+</head>
+<body>
+<span>
+<div class="grid">
+
+<a href="https://mail.yahoo.com/"> <i class="nf mail"></i>&nbsp; Y mail</a>
+<a href="https://mail.google.com/mail/"> <i class="nf mail2"></i>&nbsp; G mail</a>
+<a href="https://www.youtube.com/feed/subscriptions"> <i class="nf youtube"></i>&nbsp; Youtube</a>
+<a href="https://www.youtube.com/playlist?list=WL"> <i class="nf youtube2"></i>&nbsp; Watch later</a>
+
+<a href="https://my.irancell.ir/fa/#!/home"> <i class="nf web"></i>&nbsp; Irancell</a>
+<a href="http://www.time.ir/"> <i class="nf time"></i>&nbsp; Time</a>
+<a href="http://192.168.1.1/"> <i class="nf key"></i>&nbsp; 192.168.1.1</a>
+<a href="https://forums.warframe.com/"> <i class="nf game"></i>&nbsp; Warframe</a>
+
+<a href="http://www.dconscreen.com/"> <i class="nf podcast"></i>&nbsp; DC on screen</a>
+<a href="https://www.film2movie.asia/category/dubbed-fa/"> <i class="nf dub"></i>&nbsp; Dubbed</a>
+
+
+<div class="dropdown">
+<a href="#" > <i class="nf reddit"></i>&nbsp; Reddit >&nbsp; &nbsp; &nbsp;</a>
+<div class="dropdown-content">
+<a href="https://www.reddit.com/user/junguler"><i class="nf reddit"></i>&nbsp; u/junguler</a>
+<a href="https://www.reddit.com/r/mpv/"><i class="nf reddit"></i>&nbsp; r/Mpv</a>
+<a href="https://www.reddit.com/r/debian/"><i class="nf reddit"></i>&nbsp; r/Debian</a>
+<a href="https://www.reddit.com/r/FirefoxCSS/"><i class="nf reddit"></i>&nbsp; r/Firefox_CSS</a>
+<a href="https://www.reddit.com/r/startpages/"><i class="nf reddit"></i>&nbsp; r/Start_Pages</a>
+<a href="https://www.reddit.com/r/linux4noobs/"><i class="nf reddit"></i>&nbsp; r/Linux_101</a>
+</div>
+</div>
+
+<a href="https://www.twitch.tv/"> <i class="nf twitch"></i>&nbsp; Twitch</a>
+
+
+
+<a href="https://pirateproxy.earth/"> <i class="nf torrent"></i>&nbsp; Pirate Bay</a>
+<a href="https://1337x.unblockit.cam/"> <i class="nf torrent"></i>&nbsp; 1337x</a>
+<a href="https://mega.nz/"> <i class="nf download"></i>&nbsp; Mega</a>
+<a href="https://bmi.ir/"> <i class="nf money"></i>&nbsp; Baam</a>
+
+<div class="dropdown">
+<a href="#" > <i class="nf play"></i>&nbsp; Odysee >&nbsp; &nbsp; &nbsp; </a>
+<div class="dropdown-content">
+<a href="https://odysee.com/"><i class="nf play"></i>&nbsp; Home</a>
+<a href="https://odysee.com/@Franssen:3"><i class="nf play"></i>&nbsp; Franssen</a>
+<a href="https://odysee.com/@mati:c"><i class="nf play"></i>&nbsp; MATI</a>
+<a href="https://odysee.com/@theralphretort:1"><i class="nf play"></i>&nbsp; Ralph</a>
+<a href="https://odysee.com/@americankrogan:3"><i class="nf play"></i>&nbsp; American Krog</a>
+<a href="https://odysee.com/@PeoplesPopulistPress:e"><i class="nf play"></i>&nbsp; PPP</a>
+</div>
+</div>
+<a href="https://github.com/junguler"> <i class="nf github"></i>&nbsp; Github</a>
+<a href="https://www.protondb.com/"> <i class="nf game"></i>&nbsp; Proton DB</a>
+
+<div class="dropdown">
+<a href="#"> <i class="nf emoji"></i>&nbsp; Emoticons >&nbsp;&nbsp; </a>
+<div class="dropdown-content">
+<a href="https://www.nerdfonts.com/cheat-sheet"><i class="nf font"></i>&nbsp; Nerd Fonts</a>
+<a href="https://lucide.dev/"> <i class="nf emoji"></i>&nbsp; Glyphs</a>
+<a href="https://openmoji.org/"> <i class="nf emoji"></i>&nbsp; Emojies</a>
+</div>
+</div>
+
+<a href="https://www.appimagehub.com/"> <i class="nf package"></i>&nbsp; App Images</a>
+<a href="https://apprepo.de/"> <i class="nf package"></i>&nbsp; App Repo</a>
+<a href="https://mpv.io/manual/stable/"> <i class="nf play"></i>&nbsp; Mpv Man</a>
+<a href="https://www.film2serial.ir/category/%d8%a7%d9%86%db%8c%d9%85%db%8c%d8%b4%d9%86/%d8%af%d9%88%d8%a8%d9%84%d9%87-%d9%81%d8%a7%d8%b1%d8%b3%db%8c"> <i class="nf dub"></i>&nbsp; Dubbed 2</a>
+
+<a href="https://madattheinternet.com/"> <i class="nf web"></i>&nbsp; Mad @ Net</a>
+<a href="https://podbay.fm/"> <i class="nf podcast"></i>&nbsp; Pod Bay</a>
+<a href="https://ttsmp3.com/"> <i class="nf t2s"></i>&nbsp; Text 2 Speech</a>
+<a href="https://perchance.org/gamingclickbaitgenerator"> <i class="nf close"></i>&nbsp; Anti SJW</a>
+
+<a href="https://kiwifarms.cc/main/public"> <i class="nf farms"></i>&nbsp; Kiwi Mastadon</a>
+
+<div class="dropdown">
+<a href="#"> <i class="nf youtube2"></i>&nbsp; YT Extras > &nbsp;  </a>
+<div class="dropdown-content">
+<a href="https://www.youtube.com/channel/UCu5hFzmHUyFE1gWse0eYmcg/videos"><i class="nf youtube2"></i>&nbsp; Daiymo</a>
+<a href="https://www.youtube.com/user/C0mm1ssar/videos"><i class="nf youtube2"></i>&nbsp; Dakka</a>
+<a href="https://www.youtube.com/user/THEXBOXCRITIC"><i class="nf youtube2"></i>&nbsp; Rudy</a>
+</div>
+</div>
+
+<a href="https://freespeechextremist.com/main/all"> <i class="nf forum"></i>&nbsp; Free Speech</a>
+<a href="https://kiwifarms.is/"> <i class="nf farms"></i>&nbsp; Kiwi Farms</a>
+<a href="https://shitposter.club/main/public"> <i class="nf forum"></i>&nbsp; Shit Posters</a>
+<a href="https://www.deviantart.com/junguler"> <i class="nf deviant"></i>&nbsp; Deviant Art</a>
+
+
+
+<a href="https://free-images.com/"> <i class="nf image"></i>&nbsp; Free Images</a>
+<a href="https://www.rawpixel.com/free-images"> <i class="nf image"></i>&nbsp; Free Images 2</a>
+<a href="https://archive.org/"> <i class="nf archive"></i>&nbsp; Archive org</a>
+<a href="https://areweanticheatyet.com/"> <i class="nf check"></i>&nbsp; Anti Cheat L</a>
+
+<a href="https://unblockit.bz/"> <i class="nf unlock"></i>&nbsp; Unblock IT</a>
+<a href="https://www.reddit.com/r/FreeGamesOnSteam/new/"> <i class="nf steam"></i>&nbsp; Steam Games</a>
+<a href="https://markdown-it.github.io/"> <i class="nf markdown"></i>&nbsp; Markdown IT</a>
+<a href="https://www.tablesgenerator.com/markdown_tables"> <i class="nf table"></i>&nbsp; MD Tables</a>
+
+<a href="https://devdocs.io/"> <i class="nf docs"></i>&nbsp; Dev Docs</a>
+<a href="https://www.redbubble.com/people/Flowerial/shop"> <i class="nf flower"></i>&nbsp; Flowerial</a>
+<!-- <a href="#" style="pointer-events: none;"> <i class="nf star"></i>&nbsp; +</a> -->
+
+</div>
+</span>
+</body>
+</html>

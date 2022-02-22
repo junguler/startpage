@@ -4,7 +4,7 @@ install the [New Tab Override](https://addons.mozilla.org/en-US/firefox/addon/ne
 ## how to show glyphs?
 go to the nerd fonts [website](https://www.nerdfonts.com/) and download the [CaskaydiaCove Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/CascadiaCode.zip) font and install the windows compatible version (even if you are on linux or mac) and restart your browser
 
-if the glyphs are still not showing open the font manager in your os and find the name the font was installed as exactly and write it in the html file in [line 21](https://github.com/junguler/startpage/blob/main/home.html#L21) if it's different from what is listed and upload the html file again in the extension
+if the glyphs are still not showing open the font manager in your os and find the name the font was installed as exactly and write it in the html file in [line 21](https://github.com/junguler/startpage/blob/main/home.html#L21) and upload the html file again in the extension
 
 ## how it looks?
 

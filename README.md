@@ -11,7 +11,7 @@ if the glyphs are still not showing open the font manager in your os and find th
 https://user-images.githubusercontent.com/59083599/155002545-221b496f-c48d-4efd-b473-aa435981f295.mp4
 
 ## customizing for your needs
-adding and removing links is easy, just copy paste an existing line and change it's content or just remove any that you don't want, check the nerd fonts [cheat cheat](https://www.nerdfonts.com/cheat-sheet) for other glyphs and copy the hex value to make a new class in the style section for extra glyphs, here is an example:
+adding and removing links is easy, just copy paste an existing line and change it's content or just remove any that you don't want, check the nerd fonts [cheat sheet](https://www.nerdfonts.com/cheat-sheet) for other glyphs and copy the hex value to make a new class in the style section for extra glyphs, here is an example:
 
 ![](python_nerd.png)
 

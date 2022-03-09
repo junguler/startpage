@@ -24,3 +24,6 @@ now make a new link for the homepage of the python website
 ```
 <a href="https://www.python.org/"> <i class="nf python"></i>&nbsp; Python</a>
 ```
+
+## tabliss.json
+this startpage was inspired by [tabliss](https://github.com/joelshepherd/tabliss) and i wanted to see if i can re-create it from scratch so i figured if you like the layout but don't want to manually change the html file you can use the json file to import the stylings i have in your tabliss page and change the contents more easily, the biggest differents between my page and tabliss is i'm using nerd fonts glyphs but they are using the more flat [lucide icons](https://lucide.dev/) and of course tabliss doesn't give you an option to apply nesting in your links
